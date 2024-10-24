@@ -3,11 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sajedul Islam - Full Stack Web Developer with expertise in building dynamic web applications using modern technologies such as PHP, Laravel,JavaScript, React, Node.js, and more."
+    />
+    <meta
+      name="keywords"
+      content="Full Stack Web Developer, Sajedul Islam, Web Development, Web Developer, PHP, Laravel, JavaScript, React, next.js, express.js, Node.js, HTML, CSS, Backend, Frontend, Software Engineer"
+    />
+    <meta name="author" content="Sajedul Islam" />
+
     <script src="https://cdn.tailwindcss.com"></script>
 
     <title>Resume: Sajedul Islam</title>
   </head>
-  <body>
+  <body class="">
     <div class="bg-gray-100 p-4">
       <div class="border-1 shadow-lg shadow-gray-700 rounded-lg">
         <!-- top content -->
@@ -19,14 +29,13 @@
           </div>
 
           <div class="w-2/3 sm:text-center pl-5 mt-10 text-start">
-            <p
-              class="font-poppins font-bold text-heading sm:text-4xl text-[100px]"
-            >
+            <p class="font-poppins font-bold text-heading sm:text-3xl text-3xl">
               Sajedul Islam
             </p>
             <p class="text-lg">Full Stack Web Developer</p>
           </div>
         </div>
+
         <hr />
 
         <!-- main content -->
@@ -982,25 +991,32 @@
           </div>
         </div>
       </div>
+      <!-- footer -->
+      <footer
+        class="text-white bg-gradient-to-br from-green-400 to-blue-500 rounded-lg shadow m-4 dark:bg-black-800"
+      >
+        <div
+          class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-center text-center"
+        >
+          <span
+            class="text-sm text-white-500 sm:text-center dark:text-white-400"
+          >
+            © <span id="currentYear"></span>
+            <a
+              href="https://github.com/sajedul2022"
+              target="_blank"
+              class="hover:underline"
+              >Sajedul Islam</a
+            >. All Rights Reserved.
+          </span>
+        </div>
+      </footer>
     </div>
 
-    <!-- footer -->
-
-   
-
-    <footer class="text-white bg-gradient-to-br from-green-400 to-blue-500  rounded-lg shadow m-4 dark:bg-black-800">
-      <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-center text-center">
-        <span class="text-sm text-white-500 sm:text-center dark:text-white-400">
-          © <span id="currentYear"></span>
-          <a href="https://github.com/sajedul2022" target="_blank" class="hover:underline">Sajedul Islam</a>. All Rights Reserved.
-        </span>
-      </div>
-    </footer>
-    
     <script>
       // Set the current year dynamically
-      document.getElementById("currentYear").textContent = new Date().getFullYear();
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
     </script>
-    
   </body>
 </html>
