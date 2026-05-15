@@ -17,15 +17,18 @@
 
     <title>Resume: Sajedul Islam</title>
   </head>
-  <body class="">
-    <div class="bg-gray-100 p-4">
+  <body class="overflow-x-hidden">
+    <div class="bg-gray-100 p-2 sm:p-4">
       <div class="border-1 shadow-lg shadow-gray-700 rounded-lg">
-       
-         <!-- top content -->
-        <div class="flex rounded-t-lg bg-top-color sm:px-2 w-full">
-          <div class="flex items-center justify-center mt-10 mb-4">
+        <!-- top content -->
+        <div
+          class="flex flex-col sm:flex-row rounded-t-lg bg-top-color px-3 sm:px-4 w-full py-3"
+        >
+          <div
+            class="w-full sm:w-1/3 flex items-center justify-center sm:justify-start mt-1 mb-1 sm:mt-3 sm:mb-2"
+          >
             <div
-              class="rounded-full shadow-lg border-4 border-gray-400 overflow-hidden h-40 w-40"
+              class="rounded-full shadow-lg border-4 border-gray-400 overflow-hidden h-28 w-28 sm:h-36 sm:w-36"
             >
               <img
                 src="image/sajedul-profile.jpeg"
@@ -35,19 +38,35 @@
             </div>
           </div>
 
-          <div class="w-2/3 sm:text-center pl-5 mt-10 text-start">
-            <p class="font-poppins font-bold text-heading sm:text-3xl text-3xl">
-              Sajedul Islam
-            </p>
-            <p class="text-lg">Full Stack Web Developer</p>
+          <div class="w-full sm:w-2/3 flex items-center sm:justify-start mt-0">
+            <div class="w-full bg-gray-100 px-0 sm:px-1 py-2 text-center">
+              <p
+                class="font-poppins font-bold text-gray-900 text-2xl sm:text-3xl leading-tight"
+              >
+                Sajedul Islam
+              </p>
+              <p
+                class="inline-block mt-2 text-xs sm:text-sm font-semibold bg-blue-50 text-blue-700 px-3 py-1 rounded-full"
+              >
+                Full Stack Web Developer
+              </p>
+              <p class="mt-1 text-sm sm:text-base text-gray-700 leading-relaxed text-left">
+                3+ years of experience building scalable, high-performance web
+                applications across frontend and backend technologies. 
+              </p>
+              <p class="mt-1 text-xs sm:text-sm text-gray-800 leading-relaxed text-left">
+                PHP, Laravel, JavaScript, NodeJS, ExpressJS, NestJS, React,
+                Next.js, Vue.js, Tailwind CSS, WordPress
+              </p>
+            </div>
           </div>
         </div>
 
-        <hr class="mt-0 mb-0" />
+        <hr class="mt-0 mb-0 sm:ml-[33.333333%]" />
 
         <!-- main content -->
-        <div class="p-5">
-          <div class="flex flex-col sm:flex-row sm:mt-10">
+        <div class="p-3 sm:p-5">
+          <div class="flex flex-col sm:flex-row sm:mt-0">
             <div class="flex flex-col sm:w-1/3">
               <!-- My contact -->
               <div class="py-3 sm:order-none order-3">
@@ -69,9 +88,7 @@
                     </button>
                   </a>
                 </div>
-                <br />
-
-                <h2 class="text-lg font-poppins font-bold text-top-color">
+                <h2 class="mt-3 text-lg font-poppins font-bold text-top-color">
                   My Contact
                 </h2>
                 <div class="border-2 w-20 border-top-color my-3"></div>
@@ -92,7 +109,7 @@
                     </svg>
                     &nbsp; &nbsp;
                     <a
-                      class="w-6 text-gray-700 hover:text-orange-600"
+                      class="w-auto break-all text-gray-700 hover:text-orange-600"
                       href="http://www.linkedin.com/in/sajedul2016"
                       target="_blank"
                     >
@@ -116,7 +133,7 @@
 
                     &nbsp; &nbsp;
                     <a
-                      class="w-6 text-gray-700 hover:text-orange-600"
+                      class="w-auto break-all text-gray-700 hover:text-orange-600"
                       href="tel:+8801677071926"
                       tel
                       target="_blank"
@@ -141,7 +158,7 @@
 
                     &nbsp; &nbsp;
                     <a
-                      class="w-6 text-gray-700 hover:text-orange-600"
+                      class="w-auto break-all text-gray-700 hover:text-orange-600"
                       href="http://github.com/sajedul2022"
                       target="_blank"
                     >
@@ -174,7 +191,7 @@
 
                     &nbsp; &nbsp;
                     <a
-                      class="w-6 text-gray-700 hover:text-orange-600"
+                      class="w-auto break-all text-gray-700 hover:text-orange-600"
                       href="sajedul.idb.info@gmail.com"
                       target="_blank"
                     >
@@ -502,7 +519,7 @@
               </div>
 
               <!-- About me -->
-              <div class="py-3">
+              <div class="pt-0 pb-2">
                 <h2 class="text-lg font-poppins font-bold text-top-color">
                   About Me
                 </h2>
@@ -519,8 +536,10 @@
               class="flex flex-col sm:w-2/3 order-first sm:order-none sm:-mt-10"
             >
               <!-- Professional summary -->
-              <div class="py-3">
-                <h2 class="text-3xl font-poppins font-bold text-top-color">
+              <!-- <div class="py-3">
+                <h2
+                  class="text-2xl sm:text-3xl leading-tight font-poppins font-bold text-top-color"
+                >
                   Work Summary
                 </h2>
 
@@ -533,17 +552,19 @@
                   PHP, Laravel | NodeJS, ExpressJS, NestJS | JavaScript, React,
                   Next.js, Vue.js | Tailwind CSS | WordPress
                 </span>
-                <div class="border-2 w-20 border-top-color my-3"></div>
-              </div>
+                <div class="border-2 w-20 border-top-color mt-2 mb-1"></div>
+              </div> -->
 
               <!-- Professional Experience -->
-              <div class="py-3">
-                <h2 class="text-3xl font-poppins font-bold text-top-color">
+              <div class="pt-1 pb-3">
+                <h2
+                  class="text-2xl sm:text-3xl leading-tight font-poppins font-bold text-top-color"
+                >
                   Professional Experience
                 </h2>
                 <div class="border-2 w-20 border-top-color my-3"></div>
 
-                <div class="flex flex-col space-y-5">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-5 md:gap-6">
                   <!-- Hazetrip -->
                   <div class="flex flex-col">
                     <p class="text-lg font-bold text-green-700">
@@ -555,11 +576,13 @@
                     <p class="font-semibold text-sm text-gray-700 mt-1 mb-1">
                       2024 – Present
                     </p>
-                    <p class="font-medium text-sm text-gray-700">
-                      Leading end-to-end web solutions using NestJS, Express.js,
-                      and modern React/Next.js frontends. Focused on optimizing
-                      performance and integrating APIs (Sabre, Akij, Insurance,
-                      etc.) for travel platforms.
+                    <p
+                      class="font-medium text-sm text-gray-700 text-left sm:text-justify"
+                    >
+                      Leading end-to-end web solutions using NestJS, and modern
+                      React.js frontends. Focused on optimizing performance and
+                      integrating APIs (Sabre, Akij, Insurance, e-sim etc.) for
+                      travel platforms.
                     </p>
                   </div>
 
@@ -574,7 +597,9 @@
                     <p class="font-semibold text-sm text-gray-700 mt-1 mb-1">
                       2023 – 2024
                     </p>
-                    <p class="font-medium text-sm text-gray-700">
+                    <p
+                      class="font-medium text-sm text-gray-700 text-left sm:text-justify"
+                    >
                       Developed full-stack business applications using Laravel
                       and Node.js with React/Next.js and Vue.js frontends,
                       improving efficiency and client workflows.
@@ -592,7 +617,9 @@
                     <p class="font-semibold text-sm text-gray-700 mt-1 mb-1">
                       2022 – 2023
                     </p>
-                    <p class="font-medium text-sm text-gray-700">
+                    <p
+                      class="font-medium text-sm text-gray-700 text-left sm:text-justify"
+                    >
                       Built and maintained enterprise web solutions using PHP
                       (Laravel) and modern JavaScript frameworks like React and
                       Next.js.
@@ -614,7 +641,9 @@
                         >fiverr.com/sajedul2016</a
                       >
                     </p>
-                    <p class="font-medium text-sm text-gray-700">
+                    <p
+                      class="font-medium text-sm text-gray-700 text-left sm:text-justify"
+                    >
                       Delivered 20+ successful projects globally, specializing
                       in full-stack and WordPress development with consistent
                       5-star client satisfaction.
@@ -625,7 +654,9 @@
 
               <!-- Projects -->
               <div class="py-3">
-                <h2 class="text-3xl font-poppins font-bold text-top-color">
+                <h2
+                  class="text-2xl sm:text-3xl leading-tight font-poppins font-bold text-top-color"
+                >
                   Projects
                 </h2>
                 <div class="border-2 w-20 border-top-color my-3"></div>
@@ -698,7 +729,7 @@
                               target="_blank"
                               >https://soft.aaeesm.com</a
                             ><br />
-                            <span>User & Password same: user@gmail.com</span>
+                            <span>User & Password same: test@gmail.com</span>
                           </p>
                         </div>
 
@@ -803,10 +834,10 @@
                                 ></path>
                               </svg>
                               <a
-                                href="https://zahrabd.com"
+                                href="https://freelancermarkets.com/"
                                 target="_blank"
                                 class="text-blue-500 hover:underline break-all"
-                                >https://zahrabd.com</a
+                                >https://freelancermarkets.com/</a
                               >
                             </li>
                             <li class="flex items-center space-x-2">
@@ -860,6 +891,46 @@
                                 ></path>
                               </svg>
                               <a
+                                href="https://www.shuttlebd.com"
+                                target="_blank"
+                                class="text-blue-500 hover:underline break-all"
+                                >https://www.shuttlebd.com</a
+                              >
+                            </li>
+
+                            <li class="flex items-center space-x-2">
+                              <svg
+                                class="w-4 h-4 text-green-700 flex-shrink-0"
+                                fill="currentColor"
+                                viewBox="0 0 20 20"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-5.293l4-4a1 1 0 10-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0z"
+                                  clip-rule="evenodd"
+                                ></path>
+                              </svg>
+                              <a
+                                href="https://educafeedback.com"
+                                target="_blank"
+                                class="text-blue-500 hover:underline break-all"
+                                >https://educafeedback.com</a
+                              >
+                            </li>
+
+                            <li class="flex items-center space-x-2">
+                              <svg
+                                class="w-4 h-4 text-green-700 flex-shrink-0"
+                                fill="currentColor"
+                                viewBox="0 0 20 20"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-5.293l4-4a1 1 0 10-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0z"
+                                  clip-rule="evenodd"
+                                ></path>
+                              </svg>
+                              <a
                                 href="https://github.com/sajedul2022/Inventory-Management_php"
                                 target="_blank"
                                 class="text-blue-500 hover:underline break-all"
@@ -885,6 +956,63 @@
                                 >Laravel LMS</a
                               >
                             </li>
+
+                            <li class="flex items-start space-x-2">
+                              <svg
+                                class="w-4 h-4 text-green-700 flex-shrink-0 mt-1"
+                                fill="currentColor"
+                                viewBox="0 0 20 20"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-5.293l4-4a1 1 0 10-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0z"
+                                  clip-rule="evenodd"
+                                ></path>
+                              </svg>
+                              <div class="flex flex-col">
+                                <span class="font-medium text-gray-700"
+                                  >Ecommerce:</span
+                                >
+                                <div class="mt-2 flex flex-col space-y-1">
+                                  <a
+                                    href="https://bizli.cyberaware-bd.com"
+                                    target="_blank"
+                                    class="block text-blue-500 hover:underline break-all"
+                                    >https://bizli.cyberaware-bd.com</a
+                                  >
+                                  <a
+                                    href="https://uddokta.cyberaware-bd.com"
+                                    target="_blank"
+                                    class="block text-blue-500 hover:underline break-all"
+                                    >https://uddokta.cyberaware-bd.com</a
+                                  >
+                                  <a
+                                    href="https://bazar.cyberaware-bd.com"
+                                    target="_blank"
+                                    class="block text-blue-500 hover:underline break-all"
+                                    >https://bazar.cyberaware-bd.com</a
+                                  >
+                                  <a
+                                    href="https://musfimart.cyberaware-bd.com"
+                                    target="_blank"
+                                    class="block text-blue-500 hover:underline break-all"
+                                    >https://musfimart.cyberaware-bd.com</a
+                                  >
+                                  <a
+                                    href="https://gadget.cyberaware-bd.com"
+                                    target="_blank"
+                                    class="block text-blue-500 hover:underline break-all"
+                                    >https://gadget.cyberaware-bd.com</a
+                                  >
+                                  <a
+                                    href="https://kroylo.com"
+                                    target="_blank"
+                                    class="block text-blue-500 hover:underline break-all"
+                                    >https://kroylo.com</a
+                                  >
+                                </div>
+                              </div>
+                            </li>
                           </ul>
                         </div>
                       </div>
@@ -896,9 +1024,67 @@
                   <div class="flex flex-col space-y-6">
                     <!-- Node / Nest / Express -->
                     <div>
-                      <p class="text-gray-600 font-bold mb-2">
-                        # Node (NestJS, Express.js)
-                      </p>
+                      <p class="text-gray-600 font-bold mb-2"># MERN Stack</p>
+
+                      <li class="flex items-center space-x-2">
+                        <svg
+                          class="w-4 h-4 text-green-700 flex-shrink-0"
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-5.293l4-4a1 1 0 10-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </svg>
+                        <a
+                          href="https://github.com/sajedul2022/titoolive"
+                          target="_blank"
+                          class="text-blue-500 hover:underline break-all"
+                          >Titoolive Apps- Express.js</a
+                        >
+                      </li>
+
+                      <li class="flex items-center space-x-2">
+                        <svg
+                          class="w-4 h-4 text-green-700 flex-shrink-0"
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-5.293l4-4a1 1 0 10-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </svg>
+                        <a
+                          href="https://github.com/sajedul2022/nestjs-basic"
+                          target="_blank"
+                          class="text-blue-500 hover:underline break-all"
+                          >Nestjs Application Coding Standard</a
+                        >
+                      </li>
+
+                      <li class="flex items-center space-x-2">
+                        <svg
+                          class="w-4 h-4 text-green-700 flex-shrink-0"
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-5.293l4-4a1 1 0 10-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </svg>
+                        <a
+                          href="https://github.com/sajedul2022/HandNotes/tree/main/05.%20MERN"
+                          target="_blank"
+                          class="text-blue-500 hover:underline break-all"
+                          >See MERN Hand Notes</a
+                        >
+                      </li>
 
                       <div class="flex flex-col">
                         <p
@@ -915,16 +1101,13 @@
                               clip-rule="evenodd"
                             ></path>
                           </svg>
-                          <span>OTA – Hazetrip Software</span>
+                          <span>OTA – Online Travel Agency- NEST JS</span>
                         </p>
                         <p class="font-normal text-sm text-gray-700 mb-1 pl-2">
-                          Preview:
-                          <a
-                            class="text-blue-500"
-                            href="https://agent.hazetrip.com"
-                            target="_blank"
-                            >https://agent.hazetrip.com</a
-                          >
+                          Hazetrip (OTA)- Leading end-to-end web solutions using
+                          NestJS and modern React.js frontends. Focused on
+                          optimizing performance and integrating APIs (Sabre,
+                          Akij, Insurance, etc.) for travel platforms.
                         </p>
                       </div>
                     </div>
@@ -932,6 +1115,25 @@
                     <div>
                       <p class="text-gray-600 font-bold mb-2"># React</p>
                       <ul class="flex flex-col space-y-2 text-sm text-gray-700">
+                        <li class="flex items-center space-x-2">
+                          <svg
+                            class="w-4 h-4 text-green-700 flex-shrink-0"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-5.293l4-4a1 1 0 10-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                          <a
+                            href="https://educafeedback.com"
+                            target="_blank"
+                            class="text-blue-500 hover:underline break-all"
+                            >https://educafeedback.com</a
+                          >
+                        </li>
                         <li class="flex items-center space-x-2">
                           <svg
                             class="w-4 h-4 text-green-700 flex-shrink-0"
@@ -1045,26 +1247,6 @@
                             ></path>
                           </svg>
                           <a
-                            href="https://agent.hazetrip.com"
-                            target="_blank"
-                            class="text-blue-500 hover:underline break-all"
-                            >Hazetrip React Frontend</a
-                          >
-                        </li>
-
-                        <li class="flex items-center space-x-2">
-                          <svg
-                            class="w-4 h-4 text-green-700 flex-shrink-0"
-                            fill="currentColor"
-                            viewBox="0 0 20 20"
-                          >
-                            <path
-                              fill-rule="evenodd"
-                              d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-5.293l4-4a1 1 0 10-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0z"
-                              clip-rule="evenodd"
-                            ></path>
-                          </svg>
-                          <a
                             href="https://demo.myhrlounge.com"
                             target="_blank"
                             class="text-blue-500 hover:underline break-all"
@@ -1095,6 +1277,25 @@
                             target="_blank"
                             class="text-blue-500 hover:underline break-all"
                             >Quran App</a
+                          >
+                        </li>
+                        <li class="flex items-center space-x-2">
+                          <svg
+                            class="w-4 h-4 text-green-700 flex-shrink-0"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-5.293l4-4a1 1 0 10-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                          <a
+                            href="https://ecom.sprezzaturabd.com"
+                            target="_blank"
+                            class="text-blue-500 hover:underline break-all"
+                            >Ecommerce App</a
                           >
                         </li>
 
@@ -1159,6 +1360,25 @@
                             ></path>
                           </svg>
                           <a
+                            href="https://themereofficial.com"
+                            target="_blank"
+                            class="text-blue-500 hover:underline break-all"
+                            >https://themereofficial.com</a
+                          >
+                        </li>
+                        <li class="flex items-center space-x-2">
+                          <svg
+                            class="w-4 h-4 text-green-700 flex-shrink-0"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-5.293l4-4a1 1 0 10-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                          <a
                             href="https://atibd.net"
                             target="_blank"
                             class="text-blue-500 hover:underline break-all"
@@ -1183,6 +1403,25 @@
                             target="_blank"
                             class="text-blue-500 hover:underline break-all"
                             >WP Plugin: Scroll to Top</a
+                          >
+                        </li>
+                        <li class="flex items-center space-x-2">
+                          <svg
+                            class="w-4 h-4 text-green-700 flex-shrink-0"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M10 18a8 8 0 100-16 8 8 0 000 16zm-1-5.293l4-4a1 1 0 10-1.414-1.414L9 10.586l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                          <a
+                            href="https://www.fiverr.com/sajedul2016"
+                            target="_blank"
+                            class="text-blue-500 hover:underline break-all"
+                            >fiverr.com/sajedul2016</a
                           >
                         </li>
                       </ul>
